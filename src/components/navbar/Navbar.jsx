@@ -1,3 +1,4 @@
+import Sidebar from "./sidebar/Sidebar";
 import "./navbar.scss";
 import { motion } from "framer-motion"
 
@@ -5,6 +6,7 @@ const Navbar = () => {
     return (
         <div className="navbar">
             {/* Sidebar */}
+            <Sidebar />
             <div className="wrapper">
                 <motion.span
                     initial={{ opacity: 0, scale: 0.5 }}
@@ -13,10 +15,10 @@ const Navbar = () => {
                 >
                     Ivan Izidoro</motion.span>
                 <div className="social">
-                    <a href="#" target="_blank"><img src="/facebook.png" alt="" /></a>
-                    <a href="#" target="_blank"><img src="/instagram.png" alt="" /></a>
-                    <a href="linkedin.com/in/ivan-izidoro" target="_blank"><img src="/linkedin.png" alt="" className="linkedin" /></a>
-                    <a href="github.com/ivanizidoro" target="_blank"><img src="/github.png" alt="" /></a>
+                    <a href="#"><img src="/facebook.png" alt="" /></a>
+                    <a href="#"><img src="/instagram.png" alt="" /></a>
+                    <a href="#"><img src="/linkedin.png" alt="" /></a>
+                    <a href="#"><img src="/github.png" alt="" /></a>
                 </div>
             </div>
         </div>
