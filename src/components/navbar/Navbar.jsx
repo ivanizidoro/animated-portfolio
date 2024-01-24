@@ -13,7 +13,7 @@ const Navbar = () => {
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5 }}
                 >
-                    Ivan Izidoro</motion.span>
+                    Portfólio</motion.span>
                 <div className="social">
                     <a href="#"><img src="/facebook.png" alt="" /></a>
                     <a href="#"><img src="/instagram.png" alt="" /></a>
