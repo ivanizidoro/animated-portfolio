@@ -66,7 +66,7 @@ const Hero = () => {
         Freelance supervisor tenico em telecomunicações
       </motion.div>
       <div className="imageContainer">
-        <img src="/hero.png" alt="foto-pessoa" />
+        <img src="/hero.png" alt="foto-pessoa"/>
       </div>
     </div>
   )
