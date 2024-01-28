@@ -5,22 +5,29 @@ import Navbar from "./components/navbar/Navbar.jsx";
 import Parallax from "./components/navbar/parallax/Parallax.jsx";
 import Services from "./components/navbar/services/Services.jsx";
 import Portfolio from "./components/navbar/portfolio/Portfolio.jsx";
+import Contact from "./components/navbar/contact/Contact.jsx";
+import Cursor from "./components/cursor/Cursor.jsx";
 
 
 const App = () => {
-  return <div>
-    <section id="Homepage">
-      <Navbar />
-      <Hero />
-    </section>
-    <section id="Services"><Parallax type="services" /></section>
-    <section><Services /></section>
-    <section id="Portfolio"><Parallax type="portfolio" /></section>
-    <Portfolio />
-    <section id="Contact">Contact</section>
-    {/*<Test />
+  return (
+    <div>
+      <Cursor />
+      <section id="Homepage">
+        <Navbar />
+        <Hero />
+      </section>
+      <section id="Services"><Parallax type="services" /></section>
+      <section><Services /></section>
+      <section id="Portfolio"><Parallax type="portfolio" /></section>
+      <Portfolio />
+      <section id="Contact">
+        <Contact />
+      </section>
+      {/*<Test />
   <Test />*/}
-  </div>;
+    </div>
+  );
 };
 
 export default App;

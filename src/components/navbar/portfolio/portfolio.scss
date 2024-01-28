@@ -1,3 +1,5 @@
+@import "../../../app.scss";
+
 .portfolio {
     position: relative;
 
@@ -12,8 +14,11 @@
         color: orange;
         font-size: 36px;
 
-
-        h1 {}
+        @include mobile {
+            padding-top: calc(100vh - 100px);
+           // bottom: 0;
+            font-size: 24px;
+        }
 
         .progressBar {
             height: 10px;
@@ -28,7 +33,7 @@
         width: 100%;
         height: 100%;
         overflow: hidden;
-        
+
 
         .wrapper {
             max-width: 1366px;
@@ -39,14 +44,27 @@
             justify-content: center;
             gap: 50px;
 
+            @include mobile {
+                flex-direction: column;
+            }
+
             .imageContainer {
                 flex: 1;
                 height: 50%;
 
-                img {
+                @include mobile {
                     width: 100%;
+                    max-height: 300px;
+                }
+
+                img {
+                    //width: 100%;
                     height: 100%;
                     object-fit: cover;
+
+                    @include mobile {
+                        object-fit: contain;
+                    }
                 }
             }
 
@@ -56,16 +74,31 @@
                 flex-direction: column;
                 gap: 30px;
 
-                h2{
-                    font-size: 72px;
+                @include mobile {
+                    transform: none !important;
+                    padding: 10px;
+                    align-items: center;
+                    text-align: center;
                 }
 
-                p{
+                h2 {
+                    font-size: 72px;
+
+                    @include mobile {
+                        font-size: 36px;
+                    }
+                }
+
+                p {
                     color: gray;
                     font-size: 20px;
+
+                    @include mobile {
+                        font-size: 16px;
+                    }
                 }
 
-                button{
+                button {
                     background-color: orange;
                     border: none;
                     border-radius: 10px;

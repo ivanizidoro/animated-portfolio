@@ -66,7 +66,7 @@ const items = [
     {
         id: 11,
         title: "Portfolio",
-        img: ".portfolio-11.png",
+        img: "portfolio-11.png",
         desc: ""
     },
     {
@@ -115,7 +115,7 @@ const Single = ({ item }) => {
         target: ref,
     });
 
-    const y = useTransform(scrollYProgress, [0, 1], [-1000, 1000]);
+    const y = useTransform(scrollYProgress, [0, 1], [-300, 300]);
 
     return <section>
         <div className="container">

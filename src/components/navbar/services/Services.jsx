@@ -32,11 +32,11 @@ const Services = () => {
             //animate="animate"
             //whileInView="animate"
             ref={ref}
-            animate={isInView && "animate"}
+            animate={"animate"}
         >
             <motion.div className="textContainer">
-                <p>Eu me concentro em sua marca crescer
-                    <br />e seguir em frente
+                <p>Minhas
+                    <br />Habilidades
                 </p>
                 <hr />
             </motion.div>
@@ -51,7 +51,6 @@ const Services = () => {
                     <h1>
                         <motion.b whileHover={{color:"orange"}}>Para seu</motion.b> negócio.
                     </h1>
-                    <button>O que fazemos?</button>
                 </div>
             </motion.div>
             <motion.div className="listContainer" variants={variants}>
