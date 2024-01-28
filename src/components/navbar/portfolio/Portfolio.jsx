@@ -6,103 +6,103 @@ const items = [
     {
         id: 1,
         title: "Jogo Super mario",
-        img: "../../../../public/portfolio-1.png",
+        img: "portfolio-1.png",
         desc: ""
     },
     {
         id: 2,
         title: "React Filmes",
-        img: "../../../../public/portfolio-2.png",
+        img: "portfolio-2.png",
         desc: ""
     },
     {
         id: 3,
         title: "Landing Page Astronauta",
-        img: "../../../../public/portfolio-3.png",
+        img: "portfolio-3.png",
         desc: ""
     },
     {
         id: 4,
         title: "React Instagram",
-        img: "../../../../public/portfolio-4.png",
+        img: "portfolio-4.png",
         desc: ""
     },
     {
         id: 5,
         title: "Landing Page DevClub",
-        img: "../../../../public/portfolio-5.png",
+        img: "portfolio-5.png",
         desc: ""
     },
     {
         id: 6,
         title: "Portfolio",
-        img: "../../../../public/portfolio-16.png",
+        img: "portfolio-16.png",
         desc: ""
     },
     {
         id: 7,
         title: "Tela de Login",
-        img: "../../../../public/portfolio-7.png",
+        img: "portfolio-7.png",
         desc: ""
     },
     {
         id: 8,
         title: "Londing Page Halloween",
-        img: "../../../../public/portfolio-8.png",
+        img: "portfolio-8.png",
         desc: ""
     },
     {
         id: 9,
         title: "Conversor de Moedas",
-        img: "../../../../public/portfolio-9.png",
+        img: "portfolio-9.png",
         desc: ""
     },
     {
         id: 10,
         title: "Estética Devs",
-        img: "../../../../public/portfolio-10.png",
+        img: "portfolio-10.png",
         desc: ""
     },
     {
         id: 11,
         title: "Portfolio",
-        img: "../../../../public/portfolio-11.png",
+        img: ".portfolio-11.png",
         desc: ""
     },
     {
         id: 12,
         title: "Londing Page Super Mario",
-        img: "../../../../public/portfolio-12.png",
+        img: "portfolio-12.png",
         desc: ""
     },
     {
         id: 13,
         title: "Dev Burguer",
-        img: "../../../../public/portfolio-13.png",
+        img: "portfolio-13.png",
         desc: ""
     },
     {
         id: 14,
         title: "JokenPÔ",
-        img: "../../../../public/portfolio-14.png",
+        img: "portfolio-14.png",
         desc: ""
     },
     {
         id: 15,
         title: "Londing Page Wide Coverage Location",
-        img: "../../../../public/portfolio-15.png",
+        img: "portfolio-15.png",
         desc: ""
     },
     {
         id: 16,
         title: "DevSorteio",
-        img: "../../../../public/portfolio-16.png",
+        img: "portfolio-16.png",
         desc: ""
     },
     {
         id: 17,
         title: "Tela de login instagram",
-        img: "../../../../public/portfolio-17.png",
+        img: "portfolio-17.png",
         desc: ""
     },
 ];
