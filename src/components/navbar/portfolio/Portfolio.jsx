@@ -135,7 +135,7 @@ const Single = ({ item }) => {
 };
 
 
-const portfolio = () => {
+const Portfolio = () => {
 
     const ref = useRef();
 
@@ -162,4 +162,4 @@ const portfolio = () => {
     );
 };
 
-export default portfolio;
+export default Portfolio;
