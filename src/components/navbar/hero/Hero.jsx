@@ -63,7 +63,7 @@ const Hero = () => {
       variants={sliderVariants} 
       initial="initial" 
       animate="animate">
-        Freelance supervisor tenico em telecomunicações
+        Freelance Desenvolvedor Front-End
       </motion.div>
       <div className="imageContainer">
         <img src="/hero.png" alt="foto-pessoa"/>
