@@ -4,7 +4,7 @@ import Hero from "./components/navbar/hero/Hero.jsx";
 import Navbar from "./components/navbar/Navbar.jsx";
 import Parallax from "./components/navbar/parallax/Parallax.jsx";
 import Services from "./components/navbar/services/Services.jsx";
-import Portfolio from "./components/navbar/portfolio/portfolio.jsx";
+import Portfolio from "./components/navbar/portfolio/Portfolio.jsx";
 
 
 const App = () => {
