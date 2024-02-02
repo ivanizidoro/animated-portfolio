@@ -46,7 +46,7 @@ const items = [
     },
     {
         id: 6,
-        title: "DevSorteio",
+        title: "Portfólio",
         img: "portfolio-6.png",
         desc: "",
         rep: "https://github.com/ivanizidoro/PORTFOLIO-1",
