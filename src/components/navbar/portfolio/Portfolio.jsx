@@ -161,8 +161,8 @@ const Single = ({ item }) => {
                 <motion.div className="textContainer" style={{ y }}>
                     <h2>{item.title}</h2>
                     <p>{item.desc}</p>
-                    <a href={item.rep} target="{{_blank}}"><button>Repositório</button></a>
-                    <a href={item.site}target="{{_blank}}"><button>Ver Demonstração</button></a>
+                    <a href={item.rep} target="blank"><button>Repositório</button></a>
+                    <a href={item.site}target="blank"><button>Ver Demonstração</button></a>
                 </motion.div>
             </div>
         </div>

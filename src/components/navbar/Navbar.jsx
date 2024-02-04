@@ -15,10 +15,10 @@ const Navbar = () => {
                 >
                     Portfólio</motion.span>
                 <div className="social">
-                    <a href="#"><img src="/facebook.png" alt="" /></a>
-                    <a href="#"><img src="/instagram.png" alt="" /></a>
-                    <a href="#"><img src="/linkedin.png" alt="" /></a>
-                    <a href="#"><img src="/github.png" alt="" /></a>
+                    <a href="https://api.whatsapp.com/send/?phone=5581982883978&text&type=phone_number&app_absent=0" target="blank"><img src="/whatsapp.png" alt="" /></a>
+                    <a href="https://www.instagram.com/ivann_izidoro/" target="blank"><img src="/instagram.png" alt="" /></a>
+                    <a href="https://www.linkedin.com/in/ivan-izidoro/" target="blank"><img src="/linkedin.png" alt="" /></a>
+                    <a href="https://github.com/ivanizidoro" target="blank"><img src="/github.png" alt="" /></a>
                 </div>
             </div>
         </div>
